@@ -12,6 +12,7 @@ import dummyData from './dummy-data';
 import PostsPage from './components/PostsContainer/PostsPage';
 import SearchBar from './components/SearchBar/SearchBarContainer';
 
+
 const App = () => {
   const [ state, setState ] = useState(dummyData)
   const [ posts, setPosts ] = useState(dummyData);
