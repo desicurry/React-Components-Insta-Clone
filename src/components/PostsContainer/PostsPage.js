@@ -7,7 +7,7 @@ import "./Posts.css";
 const PostsPage = ({ dummyData }) => {
   return (
     <div className="posts-container-wrapper">
-      {dummyData.map((data, 1) => {
+      {dummyData.map((data, i) => {
         return <Post key={i} post={data} />
       })}
     </div>
