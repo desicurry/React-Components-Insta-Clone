@@ -45,7 +45,29 @@ const dummyData = [
             }
         ]
     },
-    
+
+    {
+    username: "Luke Chesser",
+        thumbnailUrl: 'https://images.unsplash.com/profile-1446404465118-3a53b909cc82?dpr=1&auto=format&fit=crop&w=32&h=32&q=60&crop=faces&bg=fff',
+        imageUrl: 'https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1176&q=80',
+        likes: 400,
+        timestamp: "January 31, 2020, 8:22:40 pm",
+        comments: [
+            {
+                username: "Luke Chesser",
+                text: "Photo by Luke Chesser on Unsplash"
+            },
+            {
+                username: "Desi Curry",
+                text: "React is Awesome!"
+            },
+            {
+                username: "NewLambdaStudent",
+                text: "Can't wait to start learning React!"
+            }
+        ]
+    },
+
 ];
 
 export default dummyData;
